@@ -1,0 +1,10 @@
+# PROMGEN: Xilinx Prom Generator P.68d
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.68d
+DATE            08/28/2015 - 11:35
+SOURCE          fpga.bin
+DEVICE          2048K
+DATA_WIDTH      32
+FILL_DATA       0xFF
+START_ADDRESS   0x00000000 END_ADDRESS 0x001FCB9B DIRECTION_UP   "red_pitaya_top.bit" 7z010clg400

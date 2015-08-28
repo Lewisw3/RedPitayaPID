@@ -1,0 +1,24 @@
+Vivado Simulator 2013.3
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2013.3/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot red_pitaya_analog_tb_behav --prj C:/Users/LocalAdmin/Desktop/Lewis/red_pitaya -final/red_pitaya.sim/sim_1/behav/red_pitaya_analog_tb.prj work.red_pitaya_analog_tb work.glbl 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/LocalAdmin/Desktop/Lewis/red_pitaya -final/red_pitaya.srcs/sources_1/red_pitaya_analog.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/LocalAdmin/Desktop/Lewis/red_pitaya -final/red_pitaya.srcs/sim_1/red_pitaya_analog_tb.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Xilinx/Vivado/2013.3/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/LocalAdmin/Desktop/Lewis/red_pitaya -final/red_pitaya.srcs/sources_1/red_pitaya_analog.v" Line 61. Module red_pitaya_analog doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/LocalAdmin/Desktop/Lewis/red_pitaya -final/red_pitaya.srcs/sources_1/red_pitaya_analog.v" Line 61. Module red_pitaya_analog doesn't have a timescale but atleast one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=8,CLKIN1...
+Compiling module unisims_ver.ODDR
+Compiling module unisims_ver.XADC(INIT_41=16'b010111100001111...
+Compiling module work.red_pitaya_analog
+Compiling module work.red_pitaya_analog_tb
+Compiling module work.glbl
+Built simulation snapshot red_pitaya_analog_tb_behav

@@ -1,0 +1,14 @@
+PROMGEN: Xilinx Prom Generator P.68d
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -b -p bin -o fpga.bin -u 0 red_pitaya_top.bit -data_width 32 
+
+PROM fpga.prm map: Fri Aug 28 11:35:59 2015
+
+Format        Bin
+Size          2048K
+PROM start    00000000
+PROM end      001fffff
+
+        Addr1        Addr2                     Date File(s)
+     00000000     001fcb9b     Aug 28 11:35:48 2015 red_pitaya_top.bit

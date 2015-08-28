@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "red_pitaya_analog_tb_behav" --prj "C:/Users/LocalAdmin/Desktop/Lewis/red_pitaya -final/red_pitaya.sim/sim_1/behav/red_pitaya_analog_tb.prj" "work.red_pitaya_analog_tb" "work.glbl" 
