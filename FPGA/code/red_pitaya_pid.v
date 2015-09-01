@@ -31,7 +31,7 @@ Date: 28/08/2015
  *                 /-------\           |   |
  *            ---> | PID12 | --------------
  *            |    \-------/           |    
- *            |                        ÿ
+ *            |                        Ã¿
  *            |    /-------\       /-----------\
  *   CHB -----+--> | PID22 | ------| SUM & SAT | ---> CHB
  *                 \-------/       \-----------/
@@ -520,7 +520,7 @@ always @(posedge clk_i) begin
         if(set_bb_sp || set_bb_kp || set_bb_ki || set_bb_kd)          
             leds[5] <= 1'b1;
         else
-            leds[6] <= 1'b0;            
+            leds[5] <= 1'b0;            
             
         if(set_cc_sp || set_cc_kp || set_cc_ki || set_cc_kd )          
             leds[6] <= 1'b1;
